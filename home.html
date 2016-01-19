@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>自助申领系统</title>
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+</head>
+<body>
+	<div class="all">
+		<div class="header">
+			<div class="logo"></div>
+			科泰华户政自助申请机
+		</div>
+		<!-- 首页 -->
+		<div class="starter ">
+			<div class="start-bg"></div>
+			<div class="start-content">
+				<h2 class="htwo animated pulse">欢迎使用</h2>
+				<p class="start-text">本自助机暂时只支持含指纹信息的身份证本人领取，若有其他请到业务窗口办理！</p>
+				<div class="start-button">
+					<div class="left animated fadeInLeft">首次申领</div>
+					<div class="right animated fadeInRight">
+						<div>补领或换领</div>
+						<div style="font-size:20px">(丢失补领或到期换领)</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 倒计时 -->
+		<div class="time findItems">
+			<span class="count animated fadeInDown">90</span>
+		</div>
+		<!-- 中间的背景 -->
+		<div class="centerbg findItems"></div>
+		<!-- 返回主页面 -->
+		<div class="gotoHome findItems">
+			<div class="hometip">
+				<img src="images/hometip.png">
+			</div>
+			<span>返回主页面</span>
+		</div>
+		<!-- 采集身份证号 -->
+		<div class="getIdCard findItems">
+			<div class="content">
+				<!-- 采集身份证号 -->
+				<div id="idNumberGet">
+					<h2>温馨提示</h2>
+					<p class="text-detail">请将您的二代身份证，放置在下方身份证读卡区，读卡完成后需要身份信息监测，请耐心等待！</p>
+					<div class="card">
+						<input class="cardnumber" type="text" placeholder="请输入您的身份证号码" />
+
+						<div class="cardbutton">查询</div>
+					</div>
+					<div class="keyboard">
+						<div class="keylist">
+							<div class="keynum keynormal numberCard">1</div>
+							<div class="keynum keynormal numberCard">2</div>
+							<div class="keynum keynormal numberCard">3</div>
+							<div class="keydelet keynormal delete">删除</div>
+						</div>
+						<div class="keylist">
+							<div class="keynum keynormal numberCard">4</div>
+							<div class="keynum keynormal numberCard">5</div>
+							<div class="keynum keynormal numberCard">6</div>
+							<div class="keyclear keynormal clear">清空</div>
+						</div>
+						<div class="keylist">
+							<div class="keynum keynormal numberCard">7</div>
+							<div class="keynum keynormal numberCard">8</div>
+							<div class="keynum keynormal numberCard">9</div>
+						</div>
+						<div class="keylist">
+							<div class="keynum keynormal numberCard">X</div>
+							<div class="keynum keynormal numberCard">0</div>
+							<div class="keyclose keynormal">关闭</div>
+						</div>
+						<div class="keypost" id="post">输入</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 验证提示页面 -->
+		<div class="yz-tip findItems content-public">
+			<div class="checkPage">
+				<p>正在身份信息检测中，请稍候...</p>
+				<div class="tipImg-a tipImg">
+					<img src="images/tip1.png">
+				</div>
+			</div>
+		</div>
+		<!-- 基本信息填写 -->
+		<div class="szh-start basic-message findItems">
+			<div class="side">
+				<ul>
+					<!-- 动态添加 -->
+				</ul>
+			</div>
+			<div class="basicbg"></div>
+			<div class="basic-content">
+				<div class="basic-header">
+					<div class="basic-header-img">
+						个人基本信息
+					</div>
+				</div>
+				<div class="ajax-content"></div>
+			</div>
+			<div class="footer">
+				<div class="last">上一步</div>
+				<div class="next">下一步</div>
+			</div>
+		</div>
+		
+
+		<!-- 选择支付页面 -->
+		<div class="payMoney content-public findItems">
+			<div class="firstColumn">
+				<div class="leftItem taps weixin">
+					<img src="images/weixin.png">
+					<p class="title">微信支付</p>
+					<p class="detail">使用微信支付</p>
+				</div>
+				<div class="rightItem taps zhifubao">
+					<img src="images/zhifubao.png">
+					<p class="title">支付宝支付</p>
+					<p class="detail">推荐有支付宝、网银的用户使用</p>
+				</div>
+			</div>
+			<div class="seccondColumn">
+				<div class="leftItem taps yinlian" style="background:rgb(196,230,255)">
+					<img src="images/yinlian.png">
+					<p class="title">银行卡支付</p>
+					<p class="detail">支持境内信用卡、储蓄卡支付</p>
+				</div>
+				<div class="rightItem taps rmb">
+					<img src="images/rmb.png">
+					<p class="title">现金支付</p>
+					<p class="detail">支持纸质人民币支付</p>
+				</div>
+			</div>
+		</div>
+		<!-- 重新采集指纹页面 -->
+		<div class="getHandAgain findItems">
+			<div class="tipBox">
+				<div class="Box1 box">
+					<div class="box-head">指位提示</div>
+					<div class="box-body"></div>
+				</div>
+				<div class="Box2 box">
+					<div class="box-head">操作提示</div>
+					<div class="box-body"></div>
+				</div>
+				<div class="Box3 box">
+					<div class="box-head">采集窗口</div>
+					<div class="box-body"></div>
+				</div>
+			</div>
+			<div class="box-warn-message">
+				请向下按左手拇指
+			</div>
+		</div>
+
+
+	</div>
+
+	<script src="js/jquery-2.2.0.min.js"></script>
+	<script src="js/home.js"></script>
+	<script src="js/fuck.js"></script>
+	<script>
+	new Home()
+	new Reusable()
+	</script>
+</body>
+</html>

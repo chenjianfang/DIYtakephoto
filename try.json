@@ -1,0 +1,43 @@
+[{
+	"dm": "1",
+	"mc": "基本信息填写",
+	"sxh": 1,
+	"sfyx": "1",
+	"kjmc": null,
+	"url":"<h2>www.9999.com</h2>"
+}, {
+	"dm": "2",
+	"mc": "申请信息填写",
+	"sxh": 2,
+	"sfyx": "1",
+	"kjmc": null,
+	"url":"<h2>www.11111.com</h2>"
+}, {
+	"dm": "3",
+	"mc": "双手指纹采集",
+	"sxh": 3,
+	"sfyx": "1",
+	"kjmc": null,
+	"url":"<h2>www.44444444.com</h2>"
+}, {
+	"dm": "4",
+	"mc": "领证方式",
+	"sxh": 4,
+	"sfyx": "1",
+	"kjmc": null,
+	"url":"<h2>www.-------.com</h2>"
+}, {
+	"dm": "5",
+	"mc": "确认申请",
+	"sxh": 5,
+	"sfyx": "1",
+	"kjmc": null,
+	"url":"<h2>www.duio.com</h2>"
+}, {
+	"dm": "6",
+	"mc": "支付方式",
+	"sxh": 6,
+	"sfyx": "1",
+	"kjmc": null,
+	"url":"<h2>www.+_+.com</h2>"
+}]
